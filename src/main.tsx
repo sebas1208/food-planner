@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./styles/main.scss";
-import App from "./App";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage/HomePage";
 import NavBar from "./components/NavBar";
+import SearchPage from "./pages/SearchPage/SearchPage";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +14,7 @@ ReactDOM.render(
       <NavBar />
       <Switch>
         <Route path="/search">
-          <App />
+          <SearchPage />
         </Route>
         <Route path="/">
           <HomePage />

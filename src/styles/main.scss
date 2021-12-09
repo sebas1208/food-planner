@@ -10,5 +10,33 @@ $family-sans-serif: "Nunito", sans-serif;
 // Update some of Bulma's component variables
 $beige-lighter: #EFF0EB;
 $body-background-color: $beige-lighter;
+$beige: #FFFAEA;
 
-// Import only what you need from Bulma
+.mt-7 {
+    margin-top: 6rem;
+}
+
+.mb-7 {
+    margin-bottom: 6rem;
+}
+
+.ml-7 {
+    margin-left: 6rem;
+}
+
+.mr-7 {
+    margin-right: 6rem;
+}
+
+.ml-8 {
+    margin-left: 9rem;
+}
+
+.mr-8 {
+    margin-right: 9rem;
+}
+
+.hero-body {
+    padding-top: 6rem !important;
+}
+
