@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav
-      className="navbar is-success"
-      role="navigation"
-      aria-label="main navigation"
-    >
+    <nav className="navbar is-success" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a href="/" className="navbar-item">
           <h1 className="is-size-2">

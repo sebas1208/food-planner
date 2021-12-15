@@ -3,24 +3,20 @@ import ReactDOM from "react-dom";
 
 import "./styles/main.scss";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import NavBar from "./components/NavBar";
 import SearchPage from "./pages/SearchPage/SearchPage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <BrowserRouter>
       <NavBar />
-      <Switch>
-        <Route path="/search">
-          <SearchPage />
-        </Route>
-        <Route path="/">
-          <HomePage />
-        </Route>
-      </Switch>
-    </Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="search" element={<SearchPage />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
