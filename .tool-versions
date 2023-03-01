@@ -1,1 +1,5 @@
-nodejs 17.2.0
+stack 2.9.3
+yarn 1.22.11
+nodejs 18.12.0
+python 3.10.6
+ruby 3.2.1
