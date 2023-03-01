@@ -13,9 +13,9 @@ Food Planner is a app to plan your meals for the week. You can search the meals 
 - [] Export as List
 
 ## Technical Requirements
-- [] Use Bulma Css
-- [] Use Styled Components
-- [] User React hooks and context as state manager
-- [] Store user data on local storage
+- [] Use Tailwind Css
+- [] Use Vue 3, SSR and SSG
+- [] Migrate Nuxt in the future
 - [] Use typescript and types
 - [] Responsive Design
+- [] Upload app to some service e.g Netlify, Vercel, etc.
