@@ -10,5 +10,6 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+app.config.performance = true;
 
 app.mount('#app')
